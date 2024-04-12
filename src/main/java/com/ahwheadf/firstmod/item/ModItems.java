@@ -13,12 +13,12 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item RED_DIAMOND = registerItem("red_diamond",new Item(new FabricItemSettings()));
-    public static final Item CRACKED_RED_DIAMOND = registerItem("cracked_red_diamond", new Item(new FabricItemSettings()));
+    public static final Item SILVER_INGOT = registerItem("silver_ingot",new Item(new FabricItemSettings()));
+    public static final Item SILVER_ORE = registerItem("silver_ore", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngridientTabItemGroup(FabricItemGroupEntries entries){
-        entries.add(RED_DIAMOND);
-        entries.add(CRACKED_RED_DIAMOND);
+        entries.add(SILVER_INGOT);
+        entries.add(SILVER_ORE);
     }
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(FirstMod.MOD_ID, name), item);

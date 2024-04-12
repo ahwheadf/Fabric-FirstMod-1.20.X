@@ -13,11 +13,11 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
-    public static final Block RED_DIAMOND_BLOCK = registerBlock("red_diamond_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block SILVER_BLOCK = registerBlock("silver_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
-    public static final Block CRACKED_RED_DIAMOND_BLOCK = registerBlock("cracked_red_diamond_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.GLASS)));
+    public static final Block SILVER_ORE_BLOCK = registerBlock("silver_ore_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE)));
 
 
     private static Block registerBlock(String name, Block block){

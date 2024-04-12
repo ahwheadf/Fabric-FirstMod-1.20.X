@@ -12,16 +12,16 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
-    public static final ItemGroup DIAMOND_GROUP = Registry.register(Registries.ITEM_GROUP, new Identifier(FirstMod.MOD_ID, "diamonds"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.diamonds"))
-                    .icon(() -> new ItemStack(ModItems.RED_DIAMOND)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.RED_DIAMOND);
-                        entries.add(ModItems.CRACKED_RED_DIAMOND);
+    public static final ItemGroup DIAMOND_GROUP = Registry.register(Registries.ITEM_GROUP, new Identifier(FirstMod.MOD_ID, "silver"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.silver_group"))
+                    .icon(() -> new ItemStack(ModItems.SILVER_INGOT)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.SILVER_INGOT);
+                        entries.add(ModItems.SILVER_ORE);
 
-                        entries.add(Items.DIAMOND);
 
-                        entries.add(ModBlocks.RED_DIAMOND_BLOCK);
-                        entries.add(ModBlocks.CRACKED_RED_DIAMOND_BLOCK);
+
+                        entries.add(ModBlocks.SILVER_BLOCK);
+                        entries.add(ModBlocks.SILVER_ORE_BLOCK);
 
                     }).build());
     public static void RegisterItemGroups(){

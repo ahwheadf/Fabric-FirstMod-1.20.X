@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "firstmod:block/red_diamond_block"
+    "all": "firstmod:block/silver_block"
   }
 }

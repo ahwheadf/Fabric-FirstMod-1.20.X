@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "firstmod:item/cracked_red_diamond"
+    "layer0": "firstmod:item/silver_ore"
   }
 }

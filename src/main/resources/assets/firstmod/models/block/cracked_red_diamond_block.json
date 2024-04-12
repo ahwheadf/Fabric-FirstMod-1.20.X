@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "firstmod:block/cracked_red_diamond_block"
-  }
-}

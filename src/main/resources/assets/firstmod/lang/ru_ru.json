@@ -1,6 +1,9 @@
 {
-  "item.firstmod.red_diamond" : "Красный алмаз",
+  "item.firstmod.red_diamond" : "Красный Алмаз",
   "item.firstmod.cracked_red_diamond" : "Треснувший Красный Алмаз",
+  "block.firstmod.red_diamond_block" : "Красный Алмазный Блок",
+  "block.firstmod.cracked_red_diamond_block" : "Треснувший Блок Красного Алмаза",
 
-  "itemgroup.diamonds": "Разные Алмазы"
+
+  "itemgroup.diamonds": "Разновидности Алмазов"
 }

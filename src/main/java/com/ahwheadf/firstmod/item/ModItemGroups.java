@@ -1,6 +1,7 @@
 package com.ahwheadf.firstmod.item;
 
 import com.ahwheadf.firstmod.FirstMod;
+import com.ahwheadf.firstmod.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -18,6 +19,9 @@ public class ModItemGroups {
                         entries.add(ModItems.CRACKED_RED_DIAMOND);
 
                         entries.add(Items.DIAMOND);
+
+                        entries.add(ModBlocks.RED_DIAMOND_BLOCK);
+                        entries.add(ModBlocks.CRACKED_RED_DIAMOND_BLOCK);
 
                     }).build());
     public static void RegisterItemGroups(){

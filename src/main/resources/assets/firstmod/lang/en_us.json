@@ -1,6 +1,9 @@
 {
   "item.firstmod.red_diamond": "Red Diamond",
   "item.firstmod.cracked_red_diamond": "Cracked Red Diamond",
+  "block.firstmod.red_diamond_block" : "Red Diamond Block",
+  "block.firstmod.cracked_red_diamond_block" : "Cracked Red Diamond Block",
 
   "itemgroup.diamonds": "Diamonds Group"
+
 }

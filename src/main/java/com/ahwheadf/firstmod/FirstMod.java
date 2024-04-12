@@ -1,5 +1,6 @@
 package com.ahwheadf.firstmod;
 
+import com.ahwheadf.firstmod.block.ModBlocks;
 import com.ahwheadf.firstmod.item.ModItemGroups;
 import com.ahwheadf.firstmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -14,7 +15,9 @@ public class FirstMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.RegisterItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }

@@ -1,5 +1,7 @@
 package com.ahwheadf.firstmod;
 
+import com.ahwheadf.firstmod.item.ModItemGroups;
+import com.ahwheadf.firstmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +13,8 @@ public class FirstMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.RegisterItemGroups();
+		ModItems.registerModItems();
 
 	}
 }

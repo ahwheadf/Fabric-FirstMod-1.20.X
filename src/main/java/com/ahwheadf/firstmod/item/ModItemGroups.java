@@ -18,8 +18,6 @@ public class ModItemGroups {
                         entries.add(ModItems.SILVER_INGOT);
                         entries.add(ModItems.SILVER_ORE);
 
-
-
                         entries.add(ModBlocks.SILVER_BLOCK);
                         entries.add(ModBlocks.SILVER_ORE_BLOCK);
 

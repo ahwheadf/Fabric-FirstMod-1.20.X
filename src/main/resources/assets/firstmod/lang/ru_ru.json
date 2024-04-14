@@ -1,9 +1,9 @@
 {
-  "item.firstmod.red_diamond" : "Серебрянный слиток",
-  "item.firstmod.cracked_red_diamond" : "Серебрянная руда",
+  "item.firstmod.silver_ingot" : "Серебрянный слиток",
+  "item.firstmod.silver_ore" : "Рудное серебро",
   "block.firstmod.silver_block" : "Серебрянный блок",
   "block.firstmod.silver_ore_block" : "Серебрянная руда",
 
 
-  "itemgroup.diamonds": "First Mod"
+  "itemgroup.silver_group": "Первый Мод"
 }

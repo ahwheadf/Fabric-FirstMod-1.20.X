@@ -17,6 +17,7 @@ public class FirstMod implements ModInitializer {
 		ModItemGroups.RegisterItemGroups();
 
 		ModItems.registerModItems();
+
 		ModBlocks.registerModBlocks();
 
 	}

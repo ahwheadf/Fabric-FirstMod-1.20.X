@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "firstmod:silver_ingot"
+    }
+  },
+  "result": {
+    "item": "firstmod:silver_block"
+  }
+}

@@ -1,9 +1,9 @@
 {
-  "item.firstmod.silver_ingot": "Silver ingot",
-  "item.firstmod.silver_ore": "Silver ore",
+  "item.firstmod.silver_ingot": "Silver Ingot",
+  "item.firstmod.silver_ore": "Silver Ore",
 
-  "block.firstmod.silver_block" : "Silver block",
-  "block.firstmod.silver_ore_block" : "Silver ore block",
+  "block.firstmod.silver_block" : "Block of Silver",
+  "block.firstmod.silver_ore_block" : "Silver Ore",
 
   "itemgroup.silver_group": "First Mod"
 

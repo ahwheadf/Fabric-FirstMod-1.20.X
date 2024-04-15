@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "firstmod:silver_block",
+    "firstmod:raw_silver_block",
+    "firstmod:silver_ore",
+    "firstmod:deepslate_silver_ore",
+    "firstmod:nether_silver_ore",
+    "firstmod:end_stone_silver_ore"
+
+  ]
+}

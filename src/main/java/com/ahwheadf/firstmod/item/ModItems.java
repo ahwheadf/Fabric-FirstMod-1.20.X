@@ -15,19 +15,13 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item SILVER_INGOT = registerItem("silver_ingot",new Item(new FabricItemSettings()));
-    public static final Item SILVER_ORE = registerItem("silver_ore", new Item(new FabricItemSettings()));
+    public static final Item RAW_SILVER = registerItem("raw_silver", new Item(new FabricItemSettings()));
 
-    private static void addItemsToIngridientTabItemGroup(FabricItemGroupEntries entries){
-        entries.add(SILVER_INGOT);
-        entries.add(SILVER_ORE);
-    }
+
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(FirstMod.MOD_ID, name), item);
     }
     public static void registerModItems(){
         FirstMod.LOGGER.info("Registering Mod Item for " + FirstMod.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngridientTabItemGroup);
-
     }
 }

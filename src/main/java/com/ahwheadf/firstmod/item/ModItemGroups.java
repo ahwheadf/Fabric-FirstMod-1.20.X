@@ -16,10 +16,14 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.silver_group"))
                     .icon(() -> new ItemStack(ModItems.SILVER_INGOT)).entries((displayContext, entries) -> {
                         entries.add(ModItems.SILVER_INGOT);
-                        entries.add(ModItems.SILVER_ORE);
+                        entries.add(ModItems.RAW_SILVER);
 
                         entries.add(ModBlocks.SILVER_BLOCK);
-                        entries.add(ModBlocks.SILVER_ORE_BLOCK);
+
+                        entries.add(ModBlocks.SILVER_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_SILVER_ORE);
+                        entries.add(ModBlocks.NETHER_SILVER_ORE);
+                        entries.add(ModBlocks.END_STONE_SILVER_ORE);
 
                     }).build());
     public static void RegisterItemGroups(){

@@ -1,9 +1,13 @@
 {
-  "item.firstmod.silver_ingot" : "Серебрянный слиток",
-  "item.firstmod.silver_ore" : "Рудное серебро",
-  "block.firstmod.silver_block" : "Серебрянный блок",
-  "block.firstmod.silver_ore_block" : "Серебрянная руда",
+  "item.firstmod.silver_ingot" : "Серебряный слиток",
+  "item.firstmod.raw_silver" : "Рудное серебро",
+  "block.firstmod.silver_block" : "Серебряный блок",
+  "block.firstmod.raw_silver_block" : "Серебряная руда",
 
+  "block.firstmod.silver_ore" : "Silver Ore",
+  "block.firstmod.deeplslate_silver_ore" : "Deepslate Silver Ore",
+  "block.firstmod.nether_silver_ore" : "Nether Silver Ore",
+  "block.firstmod.end_stone_silver_ore" : "End Stone Silver Ore",
 
   "itemgroup.silver_group": "Первый Мод"
 }
